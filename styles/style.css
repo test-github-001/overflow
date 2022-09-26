@@ -47,6 +47,13 @@ header button {
     color: #ffffff;
     border: none;
     border-radius: 20px;
+    box-shadow: none;
+    transition: box-shadow .6s ease-in-out, color .6s ease-in-out, transform .6s ease-in-out;
+}
+header button:hover {
+    box-shadow: 2px 3px 4px #0072e1;
+    color: #ffff00;
+    transform: translateY(-3px);
 }
 
 nav{
@@ -61,7 +68,6 @@ ul {
 }
 
 a {
-    transition: box-shadow .6s ease-in-out, color .6s ease-in-out, transform .6s ease-in-out;
     box-shadow: none;
     display: block;
     font-size: 25px;
@@ -72,6 +78,7 @@ a {
     border-bottom: 2px solid #000000;
     border-radius: 0 20px 20px 0;
     cursor: pointer;
+    transition: box-shadow .6s ease-in-out, color .6s ease-in-out, transform .6s ease-in-out;
 }
 a:hover {
     box-shadow: 2px 3px 4px #0072e1;
