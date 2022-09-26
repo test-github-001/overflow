@@ -49,6 +49,7 @@ header button {
     border-radius: 20px;
     box-shadow: none;
     transition: box-shadow .6s ease-in-out, color .6s ease-in-out, transform .6s ease-in-out;
+    cursor: pointer;
 }
 header button:hover {
     box-shadow: 2px 3px 4px #0072e1;
